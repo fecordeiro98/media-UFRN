@@ -1,15 +1,26 @@
-html, input[type=number], button {
-    font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html, input, button {
+    font-family: 'Lato', sans-serif;
     font-size: 12pt;
 }
-td, input[type=number] {
+html {
+    background-color: #0095db;
+}
+table {
+    border: 1px solid #164194; border-radius: 10px;
+    padding: 5px;
+}
+td, input {
     text-align: center;
 }
-input[type=number] {
+input {
     width: 70px;
 }
 footer {
     margin-top: 12pt;
+    border: 3px double #164194; border-radius: 10px;
+    padding: 5px;
 }
 
 #espacador {
