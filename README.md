@@ -44,3 +44,5 @@ Este código HTML define uma página web projetada para calcular a média de tr�
 - A página oferece uma interface simples para cálculo da média das notas, ideal para uso acadêmico ou em sistemas de avaliação.
 
 Este código fornece uma funcionalidade básica para calcular a média de três notas e exibir o resultado, podendo ser facilmente ajustado para incluir mais funcionalidades ou validações conforme necessário.
+
+Texto gerado por inteligência artificial
