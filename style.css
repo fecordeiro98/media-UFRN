@@ -4,8 +4,13 @@ html, input, button {
     font-family: 'Lato', sans-serif;
     font-size: 12pt;
 }
-html {
+html, table {
     background-color: #0095db;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 table {
     border: 1px solid #164194; border-radius: 10px;
@@ -30,6 +35,9 @@ footer {
     padding: 5px;
 }
 
+#media {
+    background-color: lightgray;
+}
 #espacador {
     height: 12pt;
 }
