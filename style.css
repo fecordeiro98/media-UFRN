@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-html, input, button {
+html, section {
     font-family: 'Lato', sans-serif;
     font-size: 12pt;
-}
-html, table {
     background-color: #0095db;
+    width: 100%;
     height: 100%;
-    display: flex;
+    display: flex; flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -15,22 +14,35 @@ html, table {
 table {
     border: 1px solid #164194; border-radius: 10px;
     padding: 5px;
-}
-td, input {
-    text-align: center;
-}
-input {
-    width: 70px;
-    background-color: transparent;
-    border: 1px solid black; border-radius: 5px;
+
+    & td {
+        text-align: center;
+
+        & input {
+            font-family: 'Lato', sans-serif;
+            font-size: 12pt;
+            text-align: center;
+            width: 70px;
+            background-color: transparent;
+            border: 1px solid black; border-radius: 5px;
+            text-align: center;
+        }
+    }
 }
 button {
     background-color: #164194;
     border: 1px solid black; border-radius: 5px;
     color: white;
 }
+p {
+    text-align: justify;
+    max-width: 420px;
+
+    & strong {
+        font-weight: 700;
+    }
+}
 footer {
-    margin-top: 12pt;
     border: 3px double #164194; border-radius: 10px;
     padding: 5px;
 }
