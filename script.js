@@ -10,14 +10,11 @@ function calcular() {
     if (media < 6) {
         resultado.textContent = 'Estudante reprovado por média!';
         resultado.style.color = 'red';
-        resultado.style.fontWeight = 'bold';
     } else if (unidade1 < 4 || unidade2 < 4 || unidade3 < 4) {
         resultado.textContent = 'Estudante em recuperação (uma nota abaixo de 4)!';
         resultado.style.color = 'orange';
-        resultado.style.fontWeight = 'bold';
     } else {
         resultado.textContent = 'Estudante aprovado!';
         resultado.style.color = '#164194';
-        resultado.style.fontWeight = 'bold';
     }
 }

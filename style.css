@@ -53,6 +53,9 @@ footer {
 #media {
     background-color: lightgray;
 }
+#resultado {
+    font-weight: 700;
+}
 #espacador {
     height: 12pt;
 }
